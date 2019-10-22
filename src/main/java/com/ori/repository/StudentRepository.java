@@ -40,6 +40,12 @@ public class StudentRepository {
         student.setStandard(7);
         student.setAddress("Noida");
         students.put(student.getName(), student);
+        
+        student = new Student();
+        student.setName("Rajula");
+        student.setStandard(10);
+        student.setAddress("Hyderabad");
+        students.put(student.getName(), student);
     }
  
     public Student findStudent(String name) {
